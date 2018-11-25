@@ -2,31 +2,49 @@
 <html>
     <head>
         <title>Amazeriffic</title>
+        <link
+            rel="stylesheet"
+            href="css/master.css"
+            type="text/css">
     </head>
     <body>
         <header>
             <h1>Amezeriffic</h1>
             <nav>
-                <a href="#">Sign up!</a>|
-                <a href="faq.html">FAQ</a>|
-                <a href="#">Support</a>
+                <div class="questions">
+                    <a href="#">
+                        <span>Sign up!</span></a>|
+                    <a href="faq.html">
+                        <span>FAQ</span></a>|
+                    <a href="#">
+                        <span>Support</span></a>
+                </div>
             </nav>
         </header>
         <main>
-            <h2>Amazeriffic will change your life!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-                pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-                Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
-                varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
-
-            <h3>Here's why you need Amazeriffic</h3>
-            <ul>
-                <li>It fits your lifestyle</li>
-                <li>It's awesome</li>
-                <li>It rocks your world</li>
-            </ul>
-
-            <img src="lightbulb.png" alt="an image of a lightbulb">
+            <div class="container">
+                <div class="tabs">
+                    <a href="">
+                        <span class="active">Newest</span>
+                    </a>
+                    <a href="">
+                        <span>Oldest</span>
+                    </a>
+                    <a href="">
+                        <span>Add</span>
+                    </a>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li>Get Groceries</li>
+                        <li>Make up some new ToDos</li>
+                        <li>Prep for Monday's class</li>
+                        <li>Answer recruiter emails on LinkedIn</li>
+                        <li>Take Gracie to the park</li>
+                        <li>Finish writing book</li>
+                    </ul>
+                </div>
+            </div>
         </main>
 
         <footer>
@@ -62,5 +80,7 @@
 
             </div>
         </footer>
+        <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
